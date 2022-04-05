@@ -1,5 +1,7 @@
 //! The Poseidon algebraic hash function lightweight implementation
 
+#![no_std]
+
 use core::iter;
 
 mod constants;
