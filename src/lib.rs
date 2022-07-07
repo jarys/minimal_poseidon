@@ -6,8 +6,8 @@ use core::iter;
 
 mod constants;
 use constants::{MDS, ROUND_CONSTANTS};
-use ff::Field;
 use pasta_curves::arithmetic::FieldExt;
+use pasta_curves::group::ff::Field;
 use pasta_curves::pallas::Base as Fp;
 #[cfg(test)]
 mod test_vectors;
